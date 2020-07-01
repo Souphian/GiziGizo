@@ -1,0 +1,47 @@
+.title {
+    padding: 60px;
+    color: #fff;
+}
+.modal-footer a i {
+    font-size: 12px;
+}
+.language {
+    background-image: url('../images/code.jpg');
+    background-size: cover;
+}
+.lang_title {
+   padding: 40px;
+}
+.lang_pic {
+    display: flex;
+    justify-content: space-around;
+}
+.lang_content {
+    padding: 40px;
+}
+.lang_pic img {
+    width: auto;
+    height: 70px;
+}
+.testimonial {
+    background-image: url('../images/code.jpg');
+    background-size: cover;
+}
+.testi_content {
+    padding: 40px 0;
+}
+.footer-top a {
+    display: block;
+}
+@media only screen and (max-width:992px) {
+    .title h1 {
+        font-size: 1.6rem;
+    }
+}
+
+
+@media only screen and (max-width:520px) {
+    .lang_pic img {
+        height: 40px;
+    }
+}
